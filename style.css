@@ -1,0 +1,263 @@
+/*
+#99ed57
+#507c2d
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hagrid Trial', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 400px;
+}
+
+.logo {
+    height: 125px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #020912;
+    border-bottom: dashed 1px #99ed57;
+    z-index: 2;
+}
+
+.profile-picture {
+    object-fit: cover;
+    top: 75px;
+    right: 75px;
+    z-index: 1;
+    border: 5px solid #99ed57;
+    height: 450px;
+    width: 450px;
+    border-radius: 225px;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.profile-picture:hover{
+    box-shadow: 0 0 40px #99ed57;
+}
+body {
+    overflow-x: hidden;
+    position: relative;
+    padding-top: 100px;
+    background-color: #020912;
+}
+
+h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: normal;
+    position: absolute;
+    top: 160px;
+    left: 75px;
+}
+
+.main-page-me {
+    position: absolute;
+    display:block;
+    top: 255px;
+    left: 75px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: light;
+}
+
+.mainpage {
+    display: block;
+    position: relative;
+    min-height: 750px;
+}
+
+
+.work-button {
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    border: solid 2px #99ed57;
+    transition: all 0.3s;
+    border-radius: 25.5px;
+    height: 55px;
+    width: 250px;
+    top: 400px;
+    left: 75px;
+}
+
+.work-button:hover {
+    background-color: #99ed57;
+    box-shadow: 0 0 20px #99ed57;
+    color: black;
+    cursor: pointer;
+}
+
+h3{
+    color: white;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+h3:hover {
+    color:#99ed57;
+}
+
+nav {
+    position: absolute;
+    top:60px;
+    right: 40px;
+}
+
+#about-me {
+    position: relative;
+    min-height: 500px;
+    display: block;
+}
+
+#contacts {
+    position: relative;
+    display: block;
+}
+
+h5 {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    color: #99ed57;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    font-size: 38px;
+    font-weight: bold;
+    border: solid 3px white;
+    border-radius: 50%;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.75px;
+    line-height: 22px;
+    font-weight: light;
+}
+
+.background-img1{
+    position: absolute;
+    overflow: hidden;
+    top: 100px; 
+    right: -330px;
+    opacity: 0.8;
+    height: 650px;
+    width: 675px;
+}
+
+.background-img2{
+    position: absolute;
+    overflow: hidden;
+    top: 500px; 
+    left: -280px;
+    height: 450px;
+    width: 475px;
+}
+
+
+.background-img3{
+    position: absolute;
+    overflow: hidden;
+    top: 900px; 
+    right: -280px;
+    height: 450px;
+    width: 475px;
+}
+
+.background-img4{
+    position: absolute;
+    overflow: hidden;
+    top: 1350px; 
+    left: -400px;
+    height: 850px;
+    width: 875px;
+}
+
+#my-experience {
+    display: block;
+    position: relative;
+    min-height: 750px;
+}
+
+.step-number {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    font-size: 38px;
+    font-weight: bold;
+    border: solid 3px #99ed57;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.step-number:hover {
+    background-color: #99ed57;
+    box-shadow: 0 0 40px #99ed57;
+    color: black;
+}
+
+.step-description {
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.75px;
+    line-height: 22px;
+    font-weight: lighter;
+}
+
+.step-1 { top: -100px; left: 450px; }
+.desc-1 { top: 0px; left: 350px; }
+
+.step-2 { top: 50px; right: 440px; }
+.desc-2 { top: 300px; left: 350px; width: 280px; }
+
+.step-3 { top: 200px; left: 450px; }
+.desc-3 { top: 150px; right: 315px; width: 320px; }
+
+.step-4 { top: 350px; right: 440px; }
+.desc-4 { top: 450px; right: 320px; }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020912; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #99ed57; 
+    border-radius: 5px;
+}
